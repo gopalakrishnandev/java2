@@ -1,0 +1,10 @@
+1.addAll
+2.get
+3.set
+4.remove
+5.removeAll
+6.retainAll
+7.clear
+8.isEmpty  -> return boolean result
+9.naturalOrder
+10.reverseOrder

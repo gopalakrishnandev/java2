@@ -18,11 +18,14 @@ public class Main {
         gerceryArray[1] = new GeoceryItem("Dhoni", "yy ");
         gerceryArray[2] = new GeoceryItem("Virat", "kk");
 
-        System.out.println(Arrays.toString(gerceryArray));
+//        System.out.println(Arrays.toString(gerceryArray));
 
         //Array list
         ArrayList<GeoceryItem> arrList = new ArrayList<>();
         arrList.add(new GeoceryItem("Sam", "human"));
+        arrList.set(0,new GeoceryItem("Gayle", "batter", 44));
+//        arrList.remove(0);
+
         System.out.println(arrList);
     }
 }
